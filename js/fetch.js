@@ -210,7 +210,7 @@ export const renderPlayers = (players, search = false) => {
 	footerTd.appendChild(document.createElement('br'));
 
 	const span2 = document.createElement('span');
-	span2.appendChild(document.createTextNode('Powed by '));
+	span2.appendChild(document.createTextNode('Powered by '));
 
 	const link = document.createElement('a');
 	link.href = 'https://discord.gg/a6QSVAVQVK';
