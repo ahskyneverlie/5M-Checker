@@ -205,7 +205,7 @@ export const renderPlayers = (players, search = false) => {
 	footerTd.rowSpan = 5;
 
 	const span1 = document.createElement('span');
-	span1.textContent = 'This page is not affiliated with FiveM or any other server.';
+	// span1.textContent = 'This page is not affiliated with FiveM or any other server.';
 	footerTd.appendChild(span1);
 	footerTd.appendChild(document.createElement('br'));
 
