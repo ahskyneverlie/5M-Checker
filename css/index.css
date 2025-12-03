@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
 
 :root {
-    --bg-color: #232323;
-    --wrapper-bg: #2C2C2C;
-    --header-bg: #171717;
-    --input-bg: #232323;
-    --icon-bg: #1E1E1E;
-    --icon-hover: #252525;
-    --icon-active: #2e2e2e;
-    --table-odd: #262626;
+    --bg-color: #565656;
+    --wrapper-bg: #565656;
+    --header-bg: #6e6e6e;
+    --input-bg: #565656;
+    --icon-bg: #565656;
+    --icon-hover: #6e6e6e;
+    --icon-active: #7a7a7a;
+    --table-odd: #6e6e6e;
     --text-color: white;
     --text-secondary: #939393;
     --border-color: #3a3a3a;
