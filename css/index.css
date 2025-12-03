@@ -59,6 +59,34 @@ body {
     transition: background-color 0.3s;
 }
 
+/* Make room for the fixed footer so it doesn't cover content */
+#wrapper {
+    padding-bottom: 64px;
+}
+
+/* Fixed footer */
+.site-footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(4px);
+    z-index: 1000;
+    color: var(--text-color);
+}
+.light-theme .site-footer {
+    background: rgba(255, 255, 255, 0.85);
+}
+.site-footer-inner {
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
 header {
     display: flex;
     align-items: center;
