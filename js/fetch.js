@@ -209,14 +209,14 @@ export const renderPlayers = (players, search = false) => {
 	footerTd.appendChild(span1);
 	footerTd.appendChild(document.createElement('br'));
 
-	const span2 = document.createElement('span');
-	span2.appendChild(document.createTextNode('Powered by '));
+	// const span2 = document.createElement('span');
+	// span2.appendChild(document.createTextNode('Powered by '));
 
-	const link = document.createElement('a');
-	link.href = 'https://discord.gg/a6QSVAVQVK';
-	link.target = '_blank';
-	link.rel = 'noopener noreferrer';
-	link.textContent = 'Sky.';
+	// const link = document.createElement('a');
+	// link.href = 'https://discord.gg/a6QSVAVQVK';
+	// link.target = '_blank';
+	// link.rel = 'noopener noreferrer';
+	// link.textContent = 'Sky.';
 
 	span2.appendChild(link);
 	span2.appendChild(document.createTextNode('.'));
