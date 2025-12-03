@@ -35,7 +35,15 @@
 body {
     margin: 0 !important;
     padding: 0 !important;
-    background: var(--bg-color);
+    /* background color with decorative SVG behind the wrapper */
+    background-color: var(--bg-color);
+    background-image: url('../img/bg.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* blend the svg with the theme color for better contrast */
+    background-blend-mode: multiply;
     display: flex;
     justify-content: center;
     color: var(--text-color);
